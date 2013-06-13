@@ -1,0 +1,10 @@
+Server: nginx
+Date: Sun, 30 Sep 2012 22:18:20 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+X-Powered-By: PHP/5.3.10
+Set-Cookie: SOLARSESSID=crasmohk3eetv9f6da3uhuocb6; expires=Wed, 03-Oct-2012 22:18:20 GMT; path=/
+Expires: Mon, 01 Oct 2012 01:18:20 GMT
+Cache-Control: public, max-age=10800
+Last-Modified: Tue, 18 Sep 2012 15:20:52 GMT

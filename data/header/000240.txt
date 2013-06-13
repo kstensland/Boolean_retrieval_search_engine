@@ -1,0 +1,12 @@
+Date: Mon, 01 Oct 2012 00:29:44 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Set-Cookie: use_hitbox=d5c5516c3379125f43aa0d495d100d6ddAEAAAAw; path=/; domain=.youtube.com
+Set-Cookie: VISITOR_INFO1_LIVE=bOgjBYPbQAM; path=/; domain=.youtube.com; expires=Wed, 29-May-2013 00:29:44 GMT
+Set-Cookie: PREF=f1=10000000; path=/; domain=.youtube.com; expires=Thu, 29-Sep-2022 00:29:44 GMT
+Expires: Tue, 27 Apr 1971 19:44:06 EST
+Cache-Control: no-cache
+P3P: CP="This is not a P3P policy! See //support.google.com/accounts/bin/answer.py?answer=151657&hl=en-GB for more info."
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+Connection: close

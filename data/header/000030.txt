@@ -1,0 +1,10 @@
+Server: nginx/1.1.19
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding, Cookie
+Set-Cookie: mobileview=off; Domain=.broadway.com; Path=/
+Transfer-Encoding: chunked
+Date: Sun, 30 Sep 2012 22:19:59 GMT
+X-Varnish: 232457455 232455430
+Age: 209
+Via: 1.1 varnish
+Connection: close

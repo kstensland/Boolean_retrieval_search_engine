@@ -1,0 +1,8 @@
+Date: Sun, 30 Sep 2012 23:45:38 GMT
+Server: Apache
+Last-Modified: Sat, 10 Sep 2011 08:15:39 GMT
+ETag: "5eec49e-35fdb2-4ac91e63040c0"
+Accept-Ranges: bytes
+Content-Length: 3538354
+Connection: close
+Content-Type: application/pdf

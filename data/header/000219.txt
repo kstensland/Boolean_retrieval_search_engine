@@ -1,0 +1,14 @@
+Server: Apache
+X-Source-Host: 219539-webpwb04.sonyment.com
+Cache-Control: public, max-age=86400
+Last-Modified: Sun, 30 Sep 2012 23:59:52 +0000
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Vary: Cookie
+ETag: "1349049592"
+P3P: CP=HONK
+Content-Type: text/html; charset=utf-8
+Content-Length: 366529
+Accept-Ranges: bytes
+Date: Mon, 01 Oct 2012 00:15:21 GMT
+Age: 917
+Connection: close

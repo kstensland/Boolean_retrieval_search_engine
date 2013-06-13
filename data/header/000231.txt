@@ -1,0 +1,9 @@
+Date: Mon, 01 Oct 2012 00:21:01 GMT
+Server: Apache/2.2.3 (Red Hat)
+X-Powered-By: PHP/5.3.14
+Set-Cookie: allmusic_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%222d49a9c4f43ddf18c0dcc6a3e2e75fcc%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A12%3A%2210.202.81.61%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A92%3A%22Mozilla%2F5.0+%28Windows%3B+U%3B+Windows+NT+5.0%3B+en-GB%3B+rv%3A1.8.1.12%29+Gecko%2F20080201+Firefox%2F2.0.0.12%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1349050861%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D657da0b6ae1c3152b24ba549ccee16de; path=/
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+X-Cache: MISS from tul1wtsppxy03.corporate.local
+X-Cache: MISS from tul1wtsppxy01.corporate.local
+Connection: close

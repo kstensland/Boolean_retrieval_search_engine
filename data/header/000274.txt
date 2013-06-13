@@ -1,0 +1,11 @@
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Vary: Accept-Encoding
+Date: Mon, 01 Oct 2012 00:59:56 GMT
+Transfer-Encoding:  chunked
+Connection: close
+Connection: Transfer-Encoding
+Set-Cookie: JSESSIONID=D104F5949D84C5FF6F993BBB0DD80236; Path=/
+Set-Cookie: dmid=19d62571-0a5c-5842-3b5c-8049c5f9e922; Expires=Wed, 16-Aug-2017 00:59:55 GMT; Path=/
+Set-Cookie: user="o=41647999&l=dir"; Version=1; Domain=.ask.com; Path=/
+Set-Cookie: oo=41647999; Domain=.ask.com; Expires=Mon, 01-Oct-2012 01:29:55 GMT; Path=/

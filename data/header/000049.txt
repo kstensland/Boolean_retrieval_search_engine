@@ -1,0 +1,8 @@
+Server: Apache
+Content-Type: text/html
+Vary: Accept-Encoding
+Cache-Control: max-age=60
+Expires: Sun, 30 Sep 2012 22:27:44 GMT
+Date: Sun, 30 Sep 2012 22:26:44 GMT
+Content-Length: 3697
+Connection: close

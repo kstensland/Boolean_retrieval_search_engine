@@ -1,0 +1,12 @@
+Date: Sun, 30 Sep 2012 22:54:14 GMT
+Expires: Sun, 30 Sep 2012 22:54:14 GMT
+Cache-Control: private, max-age=0
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: PREF=ID=096782c3fc292976:TM=1349045654:LM=1349045655:S=34eqnlwjVQ3gFLJF; expires=Tue, 30-Sep-2014 22:54:15 GMT; path=/; domain=.google.com
+Set-Cookie: NID=64=JuCAZmAbflou29jJbU1W2G-OKUrYmNcrXgW2GaRPQp6uNZoc1AGZvmksfBcnF1R8zBwg8xLNCVG6e4Ig7gaj591WNlxOirX-WTBC3X6jrKp7gPmdKYBiYDq-4rlwmGMm; expires=Mon, 01-Apr-2013 22:54:15 GMT; path=/; domain=.google.com; HttpOnly
+P3P: CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+X-Content-Type-Options: nosniff
+Server: OFE/0.1
+Connection: close

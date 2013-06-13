@@ -1,0 +1,420 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0022)http://www.shrek2.com/ -->
+<HTML><HEAD><TITLE>SHREK 2</TITLE><!-- prevent caching in netscape. very important cause netscape tends to mangle cached code -->
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META http-equiv=expires content=0>
+<META http-equiv=Pragma content=no-cache>
+<SCRIPT language=JavaScript type=text/javascript>
+<!--
+
+
+var requiredVersion = 6;			// version the user needs to view site (max is 5, min is 2)
+var useRedirect = false; 			// "true" loads new flash or non-flash page into browser
+									// "false" embeds movie or alternate html code into current page
+
+
+var flashPage = "index.html"		// the location of the flash movie page
+var noFlashPage = "get_flash.html"	// send user here if they don't have the plugin or we can't detect it
+var upgradePage = "get_flash.html"	// send user here if we detect an old plugin
+// #############################################
+
+
+
+// *************
+// everything below this point is internal until after the body tag
+// do not modify! 
+// *************
+
+// system globals
+var flash2Installed = false;		// boolean. true if flash 2 is installed
+var flash3Installed = false;		// boolean. true if flash 3 is installed
+var flash4Installed = false;		// boolean. true if flash 4 is installed
+var flash5Installed = false;		// boolean. true if flash 5 is installed
+var flash6Installed = false;		// boolean. true if flash 6 is installed
+var maxVersion = 6;					// highest version we can actually detect
+var actualVersion = 0;				// version the user really has
+var hasRightVersion = false;		// boolean. true if it's safe to embed the flash movie in the page
+var jsVersion = 1.0;				// the version of javascript supported
+
+// -->
+</SCRIPT>
+
+<SCRIPT language=JavaScript1.1 type=text/javascript>
+<!--
+
+// check the browser...we're looking for ie/win
+var isIE = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;		// true if we're on ie
+var isWin = (navigator.appVersion.indexOf("Windows") != -1) ? true : false; // true if we're on windows
+
+// this is a js1.1 code block, so make note that js1.1 is supported.
+jsVersion = 1.1;
+
+// write vbscript detection if we're not on mac.
+if(isIE && isWin){ // don't write vbscript tags on anything but ie win
+	document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+	document.write('on error resume next \n');
+	document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+	document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+	document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+	document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');	
+	document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');
+	document.write('</SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+}
+// -->
+</SCRIPT>
+
+<SCRIPT language=JavaScript type=text/javascript>
+<!--
+
+// next comes the standard javascript detection that uses the navigator.plugins array
+// we pack the detector into a function so it loads before we run it
+
+function detectFlash(){	
+
+	if (navigator.plugins){								// does navigator.plugins exist?
+		if (navigator.plugins["Shockwave Flash 2.0"] 	// yes>> then is Flash 2 
+		|| navigator.plugins["Shockwave Flash"]){		// or flash 3+ installed?
+
+			// set convenient references to flash 2 and the plugin description
+			var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+			var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+			// a flash plugin-description looks like this: Shockwave Flash 4.0 r5
+			// so we can get the major version by grabbing the character before the period
+			// note that we don't bother with minor version detection. do that in your movie with $version
+			var flashVersion = parseInt(flashDescription.charAt(flashDescription.indexOf(".") - 1));
+
+			// we know the version, now set appropriate version flags
+			flash2Installed = flashVersion == 2;		
+			flash3Installed = flashVersion == 3;
+			flash4Installed = flashVersion == 4;
+			flash5Installed = flashVersion == 5;
+			flash6Installed = flashVersion == 6;
+		}
+	}
+	
+	// loop through all versions we're checking, and set actualVersion to highest detected version
+	for (var i = 2; i <= maxVersion; i++) {	
+		if (eval("flash" + i + "Installed") == true) actualVersion = i;
+	}
+	// if we're on webtv, the version supported is 2 (pre-summer2000, or 3, post-summer2000)
+	// note that we don't bother sniffing varieties of webtv. you could if you were sadistic...
+	if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 2;	
+	
+	// uncomment next line to display flash version during testing
+	// alert("version detected: " + actualVersion);
+
+
+	// we're finished getting the version. time to take the appropriate action
+
+	if (actualVersion >= requiredVersion) { 		// user has a new enough version
+		hasRightVersion = true;						// flag: it's okay to write out the object/embed tags later
+
+		if (useRedirect) {							// if the redirection option is on, load the flash page
+			if(jsVersion > 1.0) {					// need javascript1.1 to do location.replace
+				window.location.replace(flashPage);	// use replace() so we don't break the back button
+			} else {
+				window.location = flashPage;		// otherwise, use .location
+			}
+		}
+	} else {	// user doesn't have a new enough version.
+	
+		if (useRedirect) {		// if the redirection option is on, load the appropriate alternate page
+			if(jsVersion > 1.0) {	// need javascript1.1 to do location.replace
+				window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+			} else {
+				window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+			}
+		}
+	}
+}
+
+
+detectFlash();	// call our detector now that it's safely loaded.	
+	
+// -->
+
+function queryField(opt)
+{
+  var keyloc		// The location of the start of "key=value"
+  var nextkey 		// The start of the next key
+  var start 		// The start of the value
+  var opts			// The options specified by the search string
+  var optval		// The value of the selected option
+  opts=location.search;
+  keyloc = opts.indexOf("&" + opt + "=");
+  if(keyloc == -1) {
+    keyloc = opts.indexOf("?" + opt + "=");
+  }
+  if (keyloc == -1) {
+    return "";
+  } 
+  nextkey = opts.indexOf("&",keyloc+1)  
+  if (nextkey == -1) {
+    nextkey = opts.length;
+  }
+  if (nextkey < keyloc) {
+    return "";
+  } 
+  sval = keyloc+2+opt.length;
+  optval = plustospace(unescape(opts.substring(sval,nextkey)));
+  return optval;
+}
+function plustospace(txt)
+{
+  if (txt == "") { return txt }
+  var newtxt="";  // The txt without the spaces
+  var pos=0;      // The position of the plus sign
+  var prev=0;     // The position of the previous plus sign
+  var done=false; // sentinel for loop
+  var tmp;        // Used for debugging
+  while (!done) {
+    pos = txt.indexOf("+",prev);
+    if (prev >= txt.length) {
+      done = true;
+    }
+    else if (pos == 0) {
+      prev=1;
+      newtxt += " ";
+    }
+    else if ((pos < 0) || (pos == "")) {
+      done = true;
+    }
+    else {
+      if (pos>prev) { newtxt += txt.substring(prev,pos) }
+      newtxt += " ";
+      prev=pos+1;
+    }
+  }
+  newtxt += txt.substring(prev,txt.length);
+  return newtxt ; 
+}
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript src="images/AC_RunActiveContent.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript src="images/AC_Flash.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=Javascript>
+<!--
+var siteWin = null;
+
+function launchSiteWin(URL, windowName, windowWidth, windowHeight,
+scrollbars)
+{
+    var xposition = 400;
+    var yposition = 300;
+    
+    if ((parseInt(navigator.appVersion) >= 4 )) {
+        xposition = (screen.width - windowWidth) / 2;
+        yposition = (screen.height - windowHeight) / 2;
+    }
+    
+    if (!scrollbars) var scrollbars = 0;
+    
+    var args = "width=" + windowWidth + ","
+            + "height=" + windowHeight + ","
+            + "location=0,"
+            + "menubar=0,"
+            + "scrollbars=" + scrollbars + ","
+            + "status=0,"
+            + "titlebar=0,"
+            + "hotkeys=0,"
+            + "screenx=" + xposition + ","  // NN Only
+            + "screeny=" + yposition + ","  // NN Only
+            + "left=" + xposition + ","     // IE Only
+            + "top=" + yposition;           // IE Only
+        
+    if (siteWin != null && !siteWin.closed) {
+        siteWin.close();
+    }
+    siteWin = window.open(URL, windowName, args);
+    
+    siteWin.focus();
+}
+
+function popWall(theURL,winName,wif,hif) { //v2.0
+window.open(theURL,winName,"titlebar=no,toolbar=no,location=no,directories=no,status=no,scrollbars=yes,menubar=no,resizable=yes,width="+ wif +",height="+ hif);
+}
+var oWin=false;
+function popZip(sFile) {
+	if (!oWin || oWin.closed) {
+		oWin = window.open(sFile,'','width=10,height=10');
+		oWIn.blur();
+	}
+	else oWin.location = sFile;
+	oWin.onblur=function() {
+		this.close();
+	}
+}
+onfocus=function() {
+	if (oWin && !oWin.closed) oWin.close();
+}
+
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+<!--
+
+<!--
+<!--
+            /*          This Is Frame Breaking Code      */
+            if (top != self)  {top.location = self.location}
+                        // -->
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+//-->
+
+function popWindow(theURL,winName,wif,hif) { //v2.0
+window.open(theURL,winName,"titlebar=no,toolbar=no,location=no,directories=no,status=no,scrollbars=no,menubar=no,resizable=yes,width="+ wif +",height="+ hif);
+}
+//GJam DL Code
+var inNum = parseInt(queryField("s2l")) > 0 ? queryField("s2l") : -1;
+ 
+if (inNum > 0 && inNum <= 499){
+  launchSiteWin('shrek2_main.html?s2l='+inNum,'Shrek2','770','560', '0');
+} else if (inNum == 500){
+	popWindow('ecard/greeting/index.html','ecard','752','439');
+} else if (inNum == 600){
+	popWindow('fungames/thinkdonkey/index.html','think','650','400');
+} else if (inNum == 700){
+	popWindow('fungames/createcolor/index.html','create','700','500');
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+<STYLE type=text/css>BODY {
+	FONT-SIZE: 11px; COLOR: #bfe661; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #bfe661; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+TH {
+	FONT-SIZE: 11px; COLOR: #bfe661; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+A:link {
+	COLOR: #bfe661; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #bfe661; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #bfe661; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #bfe661; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.origin {
+	BACKGROUND: #a6d646; MARGIN: 10px 0px 0px
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2800.1522" name=GENERATOR></HEAD>
+<BODY bgColor=#a6d646 leftMargin=0 background="SHREK 2_files/logo_bg.gif" 
+topMargin=0 
+onload="MM_preloadImages('../../images/btn_tickets_over.gif','../../images/btn_swampstuff_over.gif','../../images/splash_top_over_02.gif','images/middle2_btmovr.jpg')" 
+marginheight="0" marginwidth="0">
+<TABLE height="100%" cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV align=center>
+      <TABLE height="100%" cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD height=430>
+            <TABLE height=444 cellSpacing=2 cellPadding=0 width=570 align=center 
+            border=0>
+              <TBODY>
+              <TR>
+                <TD vAlign=bottom width=566 height=412>
+                  <TABLE height=412 cellSpacing=0 cellPadding=0 width=566 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=top colSpan=2 height=18>
+                        <TABLE cellSpacing=1 cellPadding=0 width=565 
+                        bgColor=#ffffff border=0>
+                          <TBODY>
+                          <TR>
+                            <TD bgColor=#ea6500 height=44>
+                              <DIV align=center><IMG height=44 
+                              src="images/hm_date.gif" 
+                          width=560></DIV></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD vAlign=top width=463 height=366>
+                        <DIV align=right></DIV>
+                        <DIV align=center></DIV>
+                                  <DIV align=left><IMG height=366 
+                        src="images/middle2.jpg" width=463 useMap=#Map 
+                        border=0 href="#"> 
+                                    <MAP name=Map>
+                                      <AREA shape=RECT 
+                          coords=253,233,460,271 
+                          href="javascript:launchSiteWin('intro.html','Shrek2','770','560',%20'0')">
+                                      <AREA 
+                          shape=RECT coords=257,282,454,333 
+                          href="javascript:launchSiteWin('dvdindex.html','Shrek2','875','500',%20'0')">
+                                      <area shape="rect" coords="270,335,437,364" href="http://www.amazon.com/dp/B00005JMQZ/ref=nosim/?tag=paramountcom-20" target="_blank">
+                                    </MAP>
+                                  </DIV></TD>
+                      <TD vAlign=top width=103><IMG height=224 
+                        src="images/middle2_top.jpg" width=102><BR><A 
+                        onmouseover="MM_swapImage('Image7','','images/middle2_btmovr.jpg',1)" 
+                        onmouseout=MM_swapImgRestore() 
+                        href="javascript:launchSiteWin('http://www.shrek2.com/ffai/','FFAI','700','490',%20'0')"><IMG 
+                        height=142 src="images/middle2_btmup.jpg" 
+                        width=102 border=0 name=Image7></A> 
+                </TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD align=middle height=25>
+                  <TABLE cellSpacing=0 cellPadding=1 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=top height=25><a href="http://www.shrekthethird.com/" target="_top"><img src="s3.jpg" width="565" height="120" border="0"></a></TD>
+                    </TR>
+                    <TR>
+                      <TD vAlign=top height=25>
+                        <DIV align=center><img height=28 
+                        src="images/btm.gif" 
+                    width=565></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR>
+            <TABLE cellSpacing=0 cellPadding=0 width=375 align=center 
+              border=0><TBODY>
+              <TR>
+                <TD width=214><IMG height=39 src="images/rating.gif" 
+                  width=190></TD>
+                <TD width=188>
+                  <DIV align=right><IMG height=25 src="images/hvlogo.gif" 
+                  width=140></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR></DIV></TD></TR>
+  <TR>
+    <TD bgColor=#000000 height=16>
+      <DIV align=center>Shrek 2 &reg; and &copy; 2007 DreamWorks Animation LLC.
+        All Rights Reserved. <a href="http://www.dreamworksanimation.com/dwa/opencms/termsofuse.html">Terms</a>/<a href="http://www.dreamworksanimation.com/dwa/opencms/privacy.html" target="_blank">Privacy</a>&nbsp;<A href="http://www.mpaa.org/" 
+      target=_blank>MPAA.ORG</A> <A href="http://www.filmratings.com/" 
+      target=_blank>FILMRATINGS.COM</A> <A href="http://www.parentalguide.org/" 
+      target=_blank>PARENTALGUIDE.ORG</FONT></A></DIV></TD></TR></TBODY></TABLE></BODY></HTML>

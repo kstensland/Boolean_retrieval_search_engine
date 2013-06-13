@@ -1,0 +1,23 @@
+Server: Apache
+Content-Type: text/html;charset=UTF-8
+tr-request-id: UGjEZQpcqkMAAAqgbT0AAASF
+from-tr: trafrt505iad.io.askjeeves.info
+Cache-Control: private
+Vary: Accept-Encoding
+Date: Sun, 30 Sep 2012 22:15:02 GMT
+Transfer-Encoding:  chunked
+Connection: close
+Connection: Transfer-Encoding
+Set-Cookie: oo=0; Domain=.ask.com; Expires=Sun, 30-Sep-2012 22:45:01 GMT; Path=/
+Set-Cookie: gc=; Domain=.ask.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: tbe=1; Domain=.ask.com; Expires=Mon, 30-Sep-2013 22:15:01 GMT; Path=/
+Set-Cookie: accepting=1; Domain=.ask.com; Expires=Mon, 30-Sep-2013 22:15:01 GMT; Path=/
+Set-Cookie: qh=1-; Domain=.ask.com; Expires=Mon, 30-Sep-2013 22:15:01 GMT; Path=/
+Set-Cookie: cu=1; Domain=.ask.com; Expires=Wed, 28-Sep-2022 22:15:01 GMT; Path=/
+Set-Cookie: gct=; Domain=.ask.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: puser=pt=U3VuLTMwLVNlcC0yMDEyLTIyOjE1OjAxLVVUQw%3D%3D&po=0&pp=dir; Domain=.ask.com; Expires=Mon, 30-Sep-2013 22:15:01 GMT; Path=/
+Set-Cookie: qc=0; Domain=.ask.com; Path=/
+Set-Cookie: cu.wz=0; Domain=.ask.com; Expires=Mon, 30-Sep-2013 22:15:01 GMT; Path=/
+Set-Cookie: abt=179; Domain=.ask.com; Expires=Mon, 30-Sep-2013 22:15:01 GMT; Path=/
+Set-Cookie: gcht=; Domain=.ask.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: user=l=dir; Domain=.ask.com; Path=/

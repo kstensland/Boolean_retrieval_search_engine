@@ -1,0 +1,10 @@
+Date: Sun, 30 Sep 2012 22:49:54 GMT
+Expires: Sat, 6 May 1995 12:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: ServerID=1128; Path=/
+Set-Cookie: JSESSIONID=493E176F8A96CABDE187E82EA54A7319.localhost; Path=/
+Content-Type: text/html;charset=ISO-8859-1
+Content-Language: en-US
+Vary: User-Agent,Accept-Encoding
+Connection: close

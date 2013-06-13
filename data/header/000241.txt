@@ -1,0 +1,15 @@
+Server: Apache
+Cache-Control: public, max-age=900
+Last-Modified: Mon, 01 Oct 2012 00:30:00 +0000
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Vary: Cookie,Accept-Encoding
+ETag: "1349051400"
+X-Head: 7
+Content-Type: text/html; charset=utf-8
+X-Cacheable: Yes
+Content-Length: 40183
+Date: Mon, 01 Oct 2012 00:30:01 GMT
+X-Varnish: 1443735921
+Age: 0
+Via: 1.1 varnish
+Connection: close

@@ -1,0 +1,9 @@
+Date: Mon, 01 Oct 2012 01:05:20 GMT
+Server: Apache/2.2.9 (Fedora)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 6721
+Content-Type: text/html; charset=ISO_8859-1
+Set-Cookie: PHPSESSID=veg7oq9ogc3bsbjca5g9oquu21; path=/
+Connection: close

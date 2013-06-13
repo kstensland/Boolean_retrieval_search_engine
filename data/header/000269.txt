@@ -1,0 +1,14 @@
+Date: Mon, 01 Oct 2012 00:58:44 GMT
+Server: Apache/2.2.22 (Unix)
+X-Web-Node: www203
+Set-Cookie: AnonSession=44159e951fe708472e55b3b0ed7c4a87-3738565d3bed5a86ec54e1b005df5119aed247f70755f2c3bda937c45f0a22c2; expires=Thu, 01-Sep-2022 12:58:44 GMT; path=/; domain=.last.fm
+Set-Cookie: AnonTrack=b7b2772be191a516cd289720bb78a86e; expires=Thu, 26-Sep-2013 00:58:44 GMT; path=/; domain=.last.fm
+Set-Cookie: FirstVisit=1349053124; path=/; domain=.last.fm
+X-Cache: HIT
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Cache-Control: no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Transfer-Encoding: chunked
+Connection: close

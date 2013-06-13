@@ -1,0 +1,8 @@
+Date: Mon, 01 Oct 2012 00:16:56 GMT
+Server: Apache/2.2
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+Set-Cookie: GEO-147_129_48_82=usa%3A%3Aithaca%3A%3A042.432%3A%3A-076.497%3A%3At1%3A%3Any; expires=Mon, 01-Oct-2012 01:16:56 GMT; path=/
+Keep-Alive: timeout=5, max=999961
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html

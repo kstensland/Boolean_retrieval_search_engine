@@ -1,0 +1,13 @@
+Cache-Control: max-age=10
+Date: Sun, 30 Sep 2012 22:44:36 GMT
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Sun, 30 Sep 2012 22:42:39 GMT
+Accept-Ranges: bytes
+ETag: "8099eae45c9fcd1:6f1"
+Server: Microsoft-IIS/6.0
+FROM: N7DOLDISWEB04
+P3P: : CP="CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONi OUR SAMo OTRo BUS PHY ONL UNI PUR COM NAV INT DEM CNT STA PRE"
+Set-Cookie: SWID=0DCE961E-E4B5-4EF9-A6AD-9D1D8E77C2EC; path=/; expires=Sun, 30-Sep-2032 22:44:36 GMT; domain=.go.com;
+Cache-Expires: Sun, 30 Sep 2012 22:45:59 GMT
+Content-Length: 8208
+Connection: close

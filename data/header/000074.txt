@@ -1,0 +1,16 @@
+Server: DMS/1.0.42
+X-DM-BackNode: sc-171.srv.dailymotion.com:80
+Vary: Accept-Encoding
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+P3p: policyref="http://www.dailymotion.com/w3c/p3p.xml", CP="IDC DSP CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT"
+Date: Sun, 30 Sep 2012 22:39:14 GMT
+Keep-Alive: timeout=60, max=4995
+X-DM-Cache: DONT
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: tg=179357; expires=Fri, 30-Sep-2022 22:39:14 GMT; path=/
+Set-Cookie: dmvk=5068ca128d578; path=/; domain=.dailymotion.com
+Set-Cookie: ql_n=0; expires=Mon, 30-Sep-2013 22:39:14 GMT; path=/
+Set-Cookie: masscast=null; path=/
+X-Dm-Page: us.html.video_item

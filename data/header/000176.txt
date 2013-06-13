@@ -1,0 +1,10 @@
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Type: text/html
+Date: Sun, 30 Sep 2012 23:40:03 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: Apache
+Set-Cookie: BR_SID=vlZGwj1kZwrDQ8im3U2Paih9zv1; path=/
+Vary: Accept-Encoding
+transfer-encoding: chunked
+Connection: Close

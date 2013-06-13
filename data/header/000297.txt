@@ -1,0 +1,9 @@
+Date: Mon, 01 Oct 2012 01:17:55 GMT
+Server: Server
+x-amz-id-1: 0B693FE881A646E78690
+x-amz-id-2: 6TUYxEnIBzodjRweKSD6Mb1Wkzl3EWtHk/MGlJTm2MAQ7HVLwxE31w==
+Content-Type: text/html;charset=UTF-8
+Vary: Accept-Encoding,User-Agent
+Set-Cookie: session-id=186-1455714-4140309; Domain=.amazon.com; Expires=Sun, 26-Sep-2032 01:17:55 GMT; Path=/
+Set-Cookie: session-id-time=1979774275l; Domain=.amazon.com; Expires=Sun, 26-Sep-2032 01:17:55 GMT; Path=/
+Transfer-Encoding: chunked

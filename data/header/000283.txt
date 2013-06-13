@@ -1,0 +1,23 @@
+Server: Apache
+X-Powered-By: PHP/5.3.3
+X-Source-Host: 428821-webpwb06.myplaydirect.com
+Cache-Control: public, max-age=900
+Last-Modified: Mon, 01 Oct 2012 01:04:15 +0000
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Vary: Cookie
+ETag: "1349053455"
+P3P: CP=HONK
+Content-Type: text/html; charset=utf-8
+X-V-I-TTL: 1200
+X-Req-Host: www.celinedion.com
+X-Req-Url: /ca/music/original-recordings
+X-Created: Mon, 01 Oct 2012 01:04:15 GMT
+Content-Length: 82204
+Accept-Ranges: bytes
+Date: Mon, 01 Oct 2012 01:06:30 GMT
+X-Varnish: 24919743 24904691
+Age: 134
+Via: 1.1 varnish
+Connection: close
+X-V-Outer: HIT
+X-V-TTL: 1066

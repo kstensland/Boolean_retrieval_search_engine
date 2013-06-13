@@ -1,0 +1,14 @@
+Accept-Encoding: gzip
+Cache-Control: Public, max-age=3600
+Content-Type: text/html
+Date: Mon, 01 Oct 2012 01:10:12 GMT
+Last-Modified: Mon, 01 Oct 2012 00:06:16 GMT
+MicrosoftOfficeWebServer: 5.0_Pub
+Server: ECD (jfk/25E7)
+Vary: Accept-Encoding
+X-Cache: HIT
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/2.5
+X-Powered-By: ASP.NET
+Content-Length: 30389
+Connection: close

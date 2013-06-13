@@ -1,0 +1,12 @@
+Server: Apache-Coyote/1.1
+RlogId: t6ulcpjqcj9%3Fvo%7B2d72f%2B00%3C6-13a1943ce06-0x8e
+Set-Cookie: JSESSIONID=B56F0926DD31B1AFD49437079ABD638B; Path=/
+Set-Cookie: ebay=%5Esbf%3D%23%5E;Domain=.ebay.com;Path=/ 
+Set-Cookie: dp1=bu1p/QEBfX0BAX19AQA**5249f915^bl/US542b2c95^;Domain=.ebay.com;Expires=Tue, 30-Sep-2014 22:20:05 GMT;Path=/ 
+Set-Cookie: s=CgAD4ACBQahcVMTk0M2NkZjYxM2EwYTU0YzA0NTVkZjE1ZmZlZjQ2NTYBSgAXUGoXFTUwNjhjNTk0LjAuMS41LjcyLjkuMC4xSmAL1w**;Domain=.ebay.com;Path=/; HttpOnly 
+Set-Cookie: nonsession=CgAAIABxQkFKVMTM0OTA0MzYwNXgyNzA4NTkwODc5Nzh4MHgyTgDLAAFQaMydMQDKACBZzscVMTk0M2NkZjYxM2EwYTU0YzA0NTVkZjE1ZmZlZjQ2NTYBTAAXUkn5FTUwNjhjNTk0LjAuMS40LjcxLjEuMC4xIufqhw**;Domain=.ebay.com;Expires=Mon, 30-Sep-2013 22:20:05 GMT;Path=/ 
+Set-Cookie: lucky9=7902166;Domain=.ebay.com;Expires=Fri, 29-Sep-2017 22:20:05 GMT;Path=/ 
+Content-Type: text/html;charset=UTF-8
+Content-Language: en-GB
+Transfer-Encoding: chunked
+Date: Sun, 30 Sep 2012 22:20:05 GMT

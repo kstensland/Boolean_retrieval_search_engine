@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "http://www.w3.org/TR/html4/loose.dtd">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<title>The Official Website of Bestselling Author Dan Brown</title>
+	<meta name="description" content="The Official Web Site of Bestselling Author Dan Brown, author of the novels The Lost Symbol, The Da Vinci Code, Angels & Demons, Deception Point, and Digital Fortress. Dan Brown is published by Doubleday, a division of Random House." >
+	<meta name="Keywords" content=" Dan Brown, The Lost Symbol, Da Vinci Code, DaVinci Code, davincicode.com, The DaVinci Code, The Da Vinci Code, Angels and Demons, Angels & Demons, Deception Point, Digital Fortress, Robert Langdon, Da Vinci Code movie, Angels and Demons movie" >
+
+	<style type="text/css">
+		
+	<!--
+		body 
+			{ 
+			background: #000000; 
+			margin-left: 0px; 
+			margin-top: 0px; 
+			margin-right: 0px;
+			margin-bottom: 0px; 
+			margin: 0px
+			}
+		#ns 
+			{ 
+			font-family: Verdana, Geneva, Arial, sans-serif;
+			color: #CCCCCC;
+			position: absolute; 
+			left: 10px; 
+			top: 10px; 
+			z-index: 2; 
+			color:#FFFFFF
+			}
+		#content    
+			{
+			font-family: Verdana, Geneva, Arial, sans-serif;
+			background-color: transparent;
+			position: absolute;
+			top: 0px;
+			visibility: hidden
+			}
+	-->
+	</style>
+	
+	
+	<script type="text/javascript" src="js/utils.js"></script>
+	<script type="text/javascript" src="js/swfobject/swfobject.js"></script>
+	<script type="text/javascript" src="js/checkplayer.js"></script>
+	<script type="text/javascript" src="js/swfaddress/swfaddress.js"></script>
+	<script type="text/javascript" src="js/browsercanvas/browsercanvas.js"></script>
+	<script type="text/javascript" language="javascript">
+		function scrollToTop(){
+			window.scroll(0, 0);
+		}
+	</script>
+
+	<script type="text/javascript">
+			var jsReady = false;
+			function isReady() {
+				return jsReady;
+			}
+			function init() {
+				jsReady = true;
+			}
+			
+			// for omniture
+			var referrer = document.referrer;
+			
+			if (referrer.length == 0 || !referrer ) {
+				referrer = "Typed/Bookmarked";
+			}
+			
+			// alert("referrer " + referrer);
+			
+			var check = new flensed.checkplayer("9.0.124", checkCB, true, updateCB);
+			
+			
+			function checkCB(checkObj) {
+				// alert("checkCB " + checkObj.checkPassed);
+				if (checkObj.checkPassed) {
+					
+					var queryStr = parseGetVars();
+					var deeplink = "";
+					
+					if (queryStr["l"]) deeplink = queryStr["l"];
+					
+					// alert(escape(top.window.location.href));
+	
+					var flashvars = {
+						deeplink: deeplink,
+						referrer: referrer,
+						pageURL: escape(top.window.location.href)
+					};
+					
+					// alert("flashvars " + flashvars);
+	
+					var params = {
+						movie: 'swf/shell.swf',
+						bgcolor:'#000000',
+						scale: 'noscale',
+						quality: 'high',
+						allowscriptaccess: 'always',
+						allowfullscreen: 'true'
+					};
+					
+					// alert(params);
+
+					var attributes = {
+						data: 'swf/shell.swf',
+						width: "100%",
+						id: 'shell',
+						name: 'shell'
+					};
+					
+					// alert("attributes.id " + attributes.id);
+		
+					checkObj.DoSWF("swf/shell.swf", "flashcontent", "100%", 600, flashvars, params, attributes, DoSWFCB);
+					
+					
+				} else {
+					
+					// alert("false " + checkObj.checkPassed);
+					updateCB(checkObj);
+				}
+			}
+			
+			function updateCB(checkObj) {
+				// alert("updateCB " + checkObj.updateStatus);
+				if (checkObj.updateStatus == false) {
+					flensed.getObjectById("flashcontent").style.visibility = "visible";
+					flensed.getObjectById("content").style.visibility = "visible";
+				}
+				if (checkObj.updateStatus == flensed.checkplayer.UPDATE_CANCELED ) {
+					flensed.getObjectById("flashcontent").style.visibility = "visible";
+					flensed.getObjectById("content").style.visibility = "visible";
+				}
+				else if (checkObj.updateStatus == flensed.checkplayer.UPDATE_FAILED) {
+					flensed.getObjectById("flashcontent").style.visibility = "visible";
+					flensed.getObjectById("content").style.visibility = "visible";
+				}
+			}
+			
+			function DoSWFCB(loadStatus) {
+				// alert("DoSWFCB loadStatus " + loadStatus.status);
+				if (loadStatus.status == flensed.checkplayer.SWF_LOADING) {
+					loadStatus.srcElem.style.visibility = "visible";
+				}
+				if (loadStatus.status == flensed.checkplayer.SWF_LOADED) {
+					
+				}
+			}
+			
+		</script>
+		
+	</head>	
+
+	<body onLoad="init();">
+		
+		<div id="flashcontent" style="visibility:hidden;width:100%;height:600px;">
+			<div id="content" style="visibility:hidden;"><a href="http://get.adobe.com/flashplayer/" target="_blank"><img src="images/noflash.jpg" alt="NoFlash" width="1280" height="960" border=0"></a></div>
+		</div>
+		
+		<noscript>
+         <div id="ns">You must have JavaScript enabled in order to view this site<br/>
+         
+		 <h1> The Novels </h1><div id="description"><hr /> The Official Web Site of Bestselling Author Dan Brown, author of the novels The Lost Symbol, The Da Vinci Code, Angels & Demons, Deception Point and Digital Fortress. Dan Brown is published by Doubleday, a division of Random House. <br/><hr /></div><div id="nav"><a href="/index.php?l=home"> The Novels </a><br />  <a href="/index.php?l=secrets">Secrets</a><br />  <a href="/index.php?l=theLostSymbol">The Lost Symbol</a><br />  <a href="/index.php?l=davinciCode">The Da Vinci Code</a><br />  <a href="/index.php?l=angelsAndDemons">Angels & Demons</a><br />  <a href="/index.php?l=deceptionPoint">Deception Point </a><br />  <a href="/index.php?l=digitalFortress">Digital Fortress</a><br />  <a href="/index.php?l=author">The Author</a><br />  <a href="/index.php?l=bio">Bio</a><br />  <a href="/index.php?l=photos">Photos</a><br />  <a href="/index.php?l=authorMedia">Media</a><br />  <a href="/index.php?l=events">Events</a><br />  </div>       
+	</div>
+       
+        	</noscript>
+        	
+        	
+        	
+<!-- Google Analytics code as per JYamaguchi 090811 -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5079460-20");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+		
+<!-- SiteCatalyst code version: H.17.
+Copyright 1997-2008 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript"><!--
+//s_account = "ranhknopf,ranhrollup";
+//rh_division = "Knopf";
+//rh_imprint = "";
+//--></script>
+<script language="JavaScript" type="text/javascript"
+src="/js/s_code.js"></script>
+
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.rhEan="";
+s.pageName="Dan Brown Homepage";
+s.server="";
+s.channel="";
+s.pageType="";
+s.prop1="";
+s.prop2="";
+s.prop3="";
+s.prop4="";
+s.prop5="";
+s.prop6="";
+s.prop7="";
+s.prop8="";
+s.prop9="";
+s.prop10="";
+s.prop11="";
+/* Conversion Variables */
+s.campaign="";
+s.events="";
+s.eVar1="";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if( navigator.appVersion.indexOf('MSIE') >= 0 ) document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><a href="http://www.omniture.com" title="Web
+Analytics"><img
+src="http://code.randomhouse.com/b/ss/ranhrollup/1/H.17--NS/0"
+height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT
+REMOVE/-->
+<!-- End SiteCatalyst code version: H.17. -->
+
+
+	</body>
+</html>

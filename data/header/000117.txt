@@ -1,0 +1,12 @@
+Content-Type: text/html;charset=UTF-8
+Server: Jetty(7.2.2.v20101205)
+Vary: Accept-Encoding
+Date: Sun, 30 Sep 2012 23:03:16 GMT
+Transfer-Encoding:  chunked
+Connection: close
+Connection: Transfer-Encoding
+Set-Cookie: JSESSIONID=tb68el9fymm612k32m81w2us7pnjflite101349046196404;Path=/
+Set-Cookie: pds%5Flife=d=AQB7r2qtii%2BRpJL5J0QQqWOTBUAmawvNlwQKc5ASSm3mOiB1U%2FP2XOBrHBWVvGjfEyQ%3D&v=5;Path=/;Domain=.barnesandnoble.com;Expires=Fri, 29-Sep-2017 23:03:16 GMT
+Set-Cookie: userid=bP0wZGERom;Path=/;Domain=.barnesandnoble.com;Expires=Fri, 29-Sep-2017 23:03:16 GMT
+Set-Cookie: pds%5Fsess=d=AQB8AXinMMWijFGRvVvm%2BmfxJlPG%2ByVCg9MTMQL%2Ff3U8qdxcveWeSD%2FGv2D5OZvshCw%3D&v=5;Path=/;Domain=.barnesandnoble.com
+Set-Cookie: SSLB=0;path=/;domain=.barnesandnoble.com;

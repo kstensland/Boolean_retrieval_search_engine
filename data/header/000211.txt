@@ -1,0 +1,13 @@
+Date: Mon, 01 Oct 2012 00:07:59 GMT
+Set-Cookie: B=f9icsmd86hnmv&b=3&s=6b; expires=Tue, 01-Oct-2014 20:00:00 GMT; path=/; domain=.yahoo.com
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Set-Cookie: YMT=d=dj0xJnQ9MCZ0cz0xMzQ5MDUwMDc5&s=.eZ5FMk1O3P_kki.xUR3SQ--; Domain=.music.yahoo.com; Expires=Tue, 01-Oct-2013 00:07:59 GMT; Path=/
+Set-Cookie: YMT=d=dj0xJnQ9MCZ0cz0xMzQ5MDUwMDc5&s=.eZ5FMk1O3P_kki.xUR3SQ--; Domain=.music.yahoo.com; Expires=Tue, 01-Oct-2013 00:07:59 GMT; Path=/
+Set-Cookie: mlap_us=%7B%22d%22%3A%5B%5B%22Youtube%22%2C%22yMusicImages%22%2C%22yahooAlbums%22%2C%22yNews%22%5D%2C%5B%22yConcerts%22%2C%22flickr%22%2C%22iTunes%22%2C%22Amazon%22%5D%5D%2C%22m%22%3A%22%22%2C%22i%22%3A%22us%22%2C%22v%22%3A%221.1%22%2C%22c%22%3A0%7D; expires=Thu, 01-Oct-2014 00:07:59 GMT; path=/; domain=new.music.yahoo.com
+Vary: Accept-Encoding
+Content-Type: text/html;charset=utf-8
+Cache-Control: private
+Age: 2
+Via: HTTP/1.1 yts22.global.media.ac4.yahoo.com (YahooTrafficServer/1.20.13 [cMsSf ]), HTTP/1.1 r12.ycpi.ac4.yahoo.net (YahooTrafficServer/1.20.20 [cMsSf ])
+Server: YTS/1.20.20
+Connection: close

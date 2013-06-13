@@ -1,0 +1,13 @@
+Server: Apache/2.2.14 (Ubuntu)
+X-Powered-By: PHP/5.3.2-1ubuntu4.9
+Last-Modified: Sun, 30 Sep 2012 23:55:14 +0000
+Vary: Cookie,Accept-Encoding
+ETag: "1349049314"
+Content-Type: text/html; charset=utf-8
+X-Varnish: 1478313957
+Date: Sun, 30 Sep 2012 23:55:16 GMT
+Transfer-Encoding:  chunked
+Connection: close
+Connection: Transfer-Encoding
+Cache-Control: public, max-age=600
+Expires: Sun, 11 Mar 1984 12:00:00 GMT

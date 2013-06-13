@@ -1,0 +1,11 @@
+Date: Sun, 30 Sep 2012 22:24:18 GMT
+Set-Cookie: B=cp7l4p186hhki&b=3&s=0s; expires=Wed, 01-Oct-2014 22:24:19 GMT; path=/; domain=.yahoo.com
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Cache-Control: max-age=0, private
+Expires: -1
+Vary: Accept-Encoding
+Content-Type: text/html;charset=utf-8
+Age: 3
+Via: HTTP/1.1 yts12.global.media.ac4.yahoo.com (YahooTrafficServer/1.20.13 [cMsSf ]), HTTP/1.1 r02.ycpi.nyc.yahoo.net (YahooTrafficServer/1.20.20 [cMsSf ])
+Server: YTS/1.20.20
+Connection: close

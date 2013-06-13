@@ -1,0 +1,22 @@
+import sqlite3, os
+
+def main():
+    lab2 = '/Users/kristofer/comp_490/2lab/data/cache.db'
+    
+    database = sqlite3.connect(lab2)
+    commands = database.cursor()
+
+    commands.execute("CREATE TABLE webPage (id integer primary key,"+
+                     "linkText varchar(512) not null,"+
+                     "keyword carchar(128) not null)")
+
+    commands.execute("CREATE TABLE token (id integer primary key,"+
+                     "word varchar(128) not null)")
+
+    commands.execute("CREATE TABLE tokenToWebPage (tokenId integer,"+
+                     "webPageId integer, occurenceNum integer,"+
+                     "FOREIGN KEY(tokenId) REFERENCES token(id),"+
+                     "FOREIGN KEY(webPageId) REFERENCES webPage(id))")
+    database.commit()
+    commands.close()
+main()

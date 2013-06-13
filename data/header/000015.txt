@@ -1,0 +1,12 @@
+Cache-Control: max-age=10
+Date: Sun, 30 Sep 2012 22:15:46 GMT
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Sun, 30 Sep 2012 22:11:49 GMT
+Accept-Ranges: bytes
+ETag: "8003b96589fcd1:665"
+Server: Microsoft-IIS/6.0
+FROM: N7DOLDISWEB15
+Set-Cookie: SWID=3062D9BF-47A4-46E6-8D28-4179FEE78A55; path=/; expires=Sun, 30-Sep-2032 22:15:46 GMT; domain=.go.com;
+Cache-Expires: Sun, 30 Sep 2012 22:15:09 GMT
+Content-Length: 18078
+Connection: close

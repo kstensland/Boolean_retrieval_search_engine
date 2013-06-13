@@ -1,0 +1,12 @@
+Date: Sun, 30 Sep 2012 22:43:31 GMT
+Server: Apache/2.2.22
+Set-Cookie: PHPSESSID=ca2ef2374531793ffa0642da3dc66ac6; path=/; domain=.moviemistakes.com
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: mmvisit=2012-09-30+18%3A43%3A31; expires=Tue, 30-Oct-2012 22:43:31 GMT; path=/; domain=.moviemistakes.com
+Set-Cookie: today=2012-09-30+18%3A43%3A31; expires=Mon, 01-Oct-2012 22:43:31 GMT; path=/; domain=.moviemistakes.com
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html

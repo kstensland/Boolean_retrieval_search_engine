@@ -1,0 +1,12 @@
+Date: Sun, 30 Sep 2012 23:56:38 GMT
+Server: Apache
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 3.0.11
+ETag: "8971de46924c9be66d9b0885cb3f23a1"
+X-Runtime: 532
+Cache-Control: private, max-age=0, must-revalidate
+Set-Cookie: _jango_s=BAh7BjoPc2Vzc2lvbl9pZCIlZThlZjBkNTE1ODBlNTQ1YmM0NGFhOGZjZDZjYzdhZTE%3D--fdbe817d37a606f27184379d8eafa34fd1547e23; domain=.jango.com; path=/; expires=Sat, 30-Sep-2017 23:56:39 GMT; HttpOnly
+Content-Length: 64289
+Status: 200
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html; charset=utf-8

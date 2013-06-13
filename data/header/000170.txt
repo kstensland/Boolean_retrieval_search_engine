@@ -1,0 +1,8 @@
+Date: Sun, 30 Sep 2012 23:35:39 GMT
+Server: Apache
+X-Pingback: http://joyfullyretired.com/xmlrpc.php
+Link: <http://joyfullyretired.com/?p=15604>; rel=shortlink
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8

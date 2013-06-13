@@ -1,0 +1,14 @@
+Server: Apache
+X-GU-jas: 51!resin-tcp-connection-*:8080-3009
+Vary: Accept-Encoding,User-Agent
+X-GU-gen-jas: 51
+Content-Type: text/html; charset=UTF-8
+P3P: CP="CAO CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa CONa TELa OUR IND ONLi UNI PURi NAV STA PRE LOC"
+Date: Mon, 01 Oct 2012 00:22:09 GMT
+X-GU-PageRenderer: DefaultPageRenderer
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+X-GU-tm: 51
+Content-Language: en-GB
+Connection: close
+X-GU-httpd: 55

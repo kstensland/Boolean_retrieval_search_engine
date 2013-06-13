@@ -1,0 +1,10 @@
+Server: nginx
+Date: Sun, 30 Sep 2012 23:18:07 GMT
+Content-Type: application/pdf
+Content-Length: 555295
+Connection: close
+Last-Modified: Sat, 27 Sep 2008 18:18:26 GMT
+Expires: Sun, 30 Sep 2012 23:34:35 GMT
+X-Orig-Src: 01_mogdir
+X-nc: HIT iad 77
+Accept-Ranges: bytes

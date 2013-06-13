@@ -1,0 +1,10 @@
+Server: Apache
+P3P: CP="ALL DSP COR NID CURa TAIa OTPi OUR BUS UNI INT PRE"
+Expires: -1
+Vary: Accept-Encoding,Cookie
+X-ServerNickName: Mj
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Date: Sun, 30 Sep 2012 22:34:22 GMT
+Age: 2015
+Connection: close

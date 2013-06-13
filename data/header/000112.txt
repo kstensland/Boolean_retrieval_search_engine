@@ -1,0 +1,20 @@
+Server: Jetty(7.2.2.v20101205)
+Expires: Fri, 02 Mar 2012 14:14:14 GMT
+Content-Type: text/html;charset=UTF-8
+Pragma: no-cache
+Cache-Control: private, max-age=0, proxy-revalidate, no-store, no-cache, must-revalidate
+RTSS: 1-1309-1
+Vary: Accept-Encoding
+Date: Sun, 30 Sep 2012 22:58:53 GMT
+Transfer-Encoding:  chunked
+Connection: close
+Connection: Transfer-Encoding
+Set-Cookie: SSLB=1; path=/; domain=.barnesandnoble.com; expires=Tue, 30-Oct-2012 23:03:53 GMT
+Set-Cookie: SSID=BgB29x0OAAAAAACtzmhQHW0GAa3OaFABAAAAAADZXJBQrc5oUAA6khsAAANoAAAArc5oUAEA; path=/; domain=.barnesandnoble.com; expires=Mon, 30-Sep-2013 22:58:53 GMT
+Set-Cookie: SSSC=1.G5794108163054005533.1|27.104; path=/; domain=.barnesandnoble.com
+Set-Cookie: SSRT=rc5oUAE; path=/; domain=.barnesandnoble.com; expires=Mon, 30-Sep-2013 22:58:53 GMT
+Set-Cookie: SSPV=QVAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAA; path=/; domain=.barnesandnoble.com; expires=Mon, 30-Sep-2013 22:58:53 GMT
+Set-Cookie: JSESSIONID=1ws1u82wrdti21djgyb9pml6iwpnjflite031349045933344;Path=/
+Set-Cookie: pds%5Flife=d=AQCJVgci2qKbli6kJqxX%2F8T%2FJSA2DRRx3zf629f0gPvofjX4xR%2B31KnrrKvURSH%2FuGg%3D&v=5;Path=/;Domain=.barnesandnoble.com;Expires=Fri, 29-Sep-2017 22:58:53 GMT
+Set-Cookie: userid=5R0hVGERTE;Path=/;Domain=.barnesandnoble.com;Expires=Fri, 29-Sep-2017 22:58:53 GMT
+Set-Cookie: pds%5Fsess=d=AQC3AMDEgoHUUXiSZqmyI%2Fs2hSxw%2BRgC67K4mY%2FzPSQykcwolLzaTVFvzfY6Wv4ZZE0%3D&v=5;Path=/;Domain=.barnesandnoble.com

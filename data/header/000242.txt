@@ -1,0 +1,13 @@
+Cache-Control: no-cache, must-revalidate, proxy-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/7.5
+X-Server: f7e5dc6a0157a115f38e64497e9a507e6a803f6b82018224
+Set-Cookie: MSCulture=IP=147.129.48.82&IPCulture=en-US&PreferredCulture=en-US&PreferredCulturePending=&Country=VVM=&ForcedExpiration=634846230055800976&timeZone=0&myStuffDma=&myStuffMarket=&USRLOC=QXJlYUNvZGU9NjA3JkNpdHk9SXRoYWNhJkNvdW50cnlDb2RlPVVTJkNvdW50cnlOYW1lPVVuaXRlZCBTdGF0ZXMmRG1hQ29kZT01NTUmTGF0aXR1ZGU9NDIuNDA3MiZMb25naXR1ZGU9LTc2LjUxNTkmUG9zdGFsQ29kZT0xNDg1MCZSZWdpb25OYW1lPU5ZJkxvY2F0aW9uSWQ9MA==&UserFirstVisit=1; domain=.myspace.com; expires=Mon, 08-Oct-2012 00:30:05 GMT; path=/
+Set-Cookie: SessionDDF2=kgBQbjhLxiApFVLsrknMZu//zOaG8Ja1Ij+55o59pjhyjSe30DTiA8vxsTqJZmpXqm1X/awnjSrCQhYFs+mA+w==; domain=.myspace.com; expires=Fri, 01-Oct-2032 00:30:05 GMT; path=/
+X-Frame-Options: SAMEORIGIN
+X-AspNet-Version: 4.0.30319
+X-PoweredBy: Nerd Rage
+Date: Mon, 01 Oct 2012 00:30:05 GMT
+Content-Length: 9796

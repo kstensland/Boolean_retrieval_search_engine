@@ -1,0 +1,12 @@
+Date: Sun, 30 Sep 2012 22:24:32 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.14
+Set-Cookie: PHPSESSID=69srn4tgohf6000idc13vbb3ilbadhhh; expires=Sun, 07-Oct-2012 22:24:32 GMT; path=/; domain=www.movieweb.com
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: vp=1349044022; expires=Sun, 30-Sep-2012 22:27:02 GMT; path=/; domain=www.movieweb.com
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8

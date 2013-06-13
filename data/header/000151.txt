@@ -1,0 +1,16 @@
+Server: nginx
+Content-Type: text/html; charset=utf-8
+Cache-Control: public, max-age=86400
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Vary: Cookie,Accept-Encoding
+ETag: "1349031640"
+Last-Modified: Sun, 30 Sep 2012 19:00:40 GMT
+X-AH-Environment: prod
+Content-Length: 113753
+Date: Sun, 30 Sep 2012 23:21:48 GMT
+X-Varnish: 772180091 771881236
+Age: 15666
+Via: 1.1 varnish
+Connection: close
+X-Cache: HIT
+X-Cache-Hits: 4

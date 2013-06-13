@@ -1,0 +1,11 @@
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-Fandango-Server-Time: 2012-09-30:22-10-04
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Vary: Accept-Encoding
+Date: Sun, 30 Sep 2012 22:24:06 GMT
+Transfer-Encoding:  chunked
+Connection: close
+Connection: Transfer-Encoding

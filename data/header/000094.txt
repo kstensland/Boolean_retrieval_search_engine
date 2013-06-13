@@ -1,0 +1,14 @@
+Date: Sun, 30 Sep 2012 22:49:53 GMT
+Server: Apache
+Vary: Host
+Last-Modified: Thu, 10 May 2012 03:03:06 GMT
+ETag: "29f9-4bfa5dbdc4e80"
+Accept-Ranges: bytes
+Content-Length: 10745
+Cache-Control: max-age=600
+Expires: Sun, 30 Sep 2012 22:59:53 GMT
+P3P: CP="CAO DSP COR CURa ADMa DEVa TAIa CONi OUR DELa BUS IND PHY ONL UNI COM NAV INT DEM PRE NON PSA PSD"
+Keep-Alive: timeout=300, max=20
+Connection: Keep-Alive
+Content-Type: text/html
+Set-Cookie: NSC_mb3-tq-xfc-80-mc=449b29123660;Version=1;Max-Age=600;path=/

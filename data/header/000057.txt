@@ -1,0 +1,12 @@
+Server: Apache/2.2.3 (Red Hat)
+Content-Length: 84667
+Content-Type: text/html; charset=utf-8
+X-Powered-By: eZ Publish
+Vary: Accept-Encoding
+Content-Language: en-US
+Served-by: 
+Pragma: 
+Cache-Control: max-age=3552
+Expires: Sun, 30 Sep 2012 23:29:19 GMT
+Date: Sun, 30 Sep 2012 22:30:07 GMT
+Connection: close

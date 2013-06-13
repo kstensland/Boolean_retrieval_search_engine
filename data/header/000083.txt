@@ -1,0 +1,10 @@
+Server: nginx/1.0.15
+Date: Sun, 30 Sep 2012 22:42:03 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Set-Cookie: loggedin=false; path=/
+Set-Cookie: _session_id=03b0f7177ea767dc3ef3ef2cf4b59adc; path=/
+Status: 200 OK
+Cache-Control: max-age=1
+Content-Length: 93446
+Expires: Sun, 30 Sep 2012 22:42:04 GMT

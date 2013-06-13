@@ -1,0 +1,9 @@
+Date: Sun, 30 Sep 2012 23:39:40 GMT
+Server: Apache/2.2.15 (Fedora)
+Accept-Ranges: bytes
+Cache-Control: max-age=86400
+Expires: Mon, 01 Oct 2012 23:39:40 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8

@@ -1,0 +1,7 @@
+Date: Sun, 30 Sep 2012 23:13:20 GMT
+Server: Apache/2.2.22 (Unix) FrontPage/5.0.2.2635
+X-Powered-By: PHP/5.3.8
+X-Pingback: http://www.katemcquillen.com/xmlrpc.php
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8

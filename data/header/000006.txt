@@ -1,0 +1,8 @@
+Date: Sun, 30 Sep 2012 22:13:06 GMT
+Server: Apache/1.3.27 (Unix) mod_gzip/1.3.19.1a Resin/2.1.16
+Set-Cookie: Wookie-Cookie=baf529354977b6b1cf0027c6067552c9; path=/; domain=.starwars.com; expires=Wed, 28-Sep-22 22:13:06 GMT
+Cache-Control: private
+Content-Length: 59129
+Set-Cookie: JSESSIONID=aX5huqKbRtDb; path=/
+Connection: close
+Content-Type: text/html; charset=ISO-8859-1

@@ -1,0 +1,8 @@
+Date: Sun, 30 Sep 2012 22:58:28 GMT
+Server: Apache/1.3.37 (Unix)
+Last-Modified: Tue, 07 Sep 1999 05:58:20 GMT
+ETag: "25b74-de1-37d4a97c"
+Accept-Ranges: bytes
+Content-Length: 3553
+Connection: close
+Content-Type: text/html

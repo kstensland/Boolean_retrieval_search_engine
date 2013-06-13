@@ -1,0 +1,21 @@
+Server: Apache
+X-Content-Type-Options: nosniff
+Content-language: en
+Last-Modified: Thu, 20 Sep 2012 10:25:31 GMT
+Content-Type: text/html; charset=utf-8
+X-Cacheable: YES
+Content-Length: 127394
+Accept-Ranges: bytes
+Date: Sun, 30 Sep 2012 22:20:35 GMT
+Connection: close
+X-Served-By: cache-s24-SJC, cache-v26-ASH
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 5
+X-Timer: S1349032100.787682056,VS0,VS49,VE526,VE11534547
+Vary: Accept-Encoding,Cookie
+Set-Cookie: wikia_beacon_id=PUT4U0q3I1; domain=.wikia.com; path=/;
+Set-Cookie: Geo={%22city%22:%22Ithaca%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22}; path=/
+X-Age: 11534
+Set-Cookie: varnish-stat=/server/ASH/cache-v26-ASH/(null)/; path=/
+Set-Cookie: loadtime=S1349032100.787682056,VS0,VS49,VE526,VE11534547; path=/
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate

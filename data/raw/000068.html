@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.apple.com" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.apple.com" r (n 0 s 0 v 0 l 0))' />
+	<meta name="Author" content="Apple Inc." />
+	<meta name="viewport" content="width=device-height" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+	<title>The Avengers - Movie Trailers - iTunes</title>
+	<meta name="omni_page" content="Movie Trailers - The Avengers" />
+	<meta name="Category" content="downloads,trailers" />
+	<script type="text/javascript" charset="utf-8">
+		/* if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
+	  		window.location.replace('/trailers/iphone/marvel/avengers/');
+	  	} */
+	</script>
+	<meta name="Description" content="Marvel Studios presents in association with Paramount Pictures &quot;Marvel's The Avengers&quot;--the Super Hero team up of a lifetime, featuring iconic Marvel Super Heroes Iron Man, The Incredible Hulk, Thor, Captain America, Hawkeye and Black Widow. When an unexpected enemy emerges that threatens global safety and security, Nick Fury, Director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins. Starring Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner and Samuel L. Jackson, and directed by Joss Whedon, &quot;Marvel's The Avengers&quot; is based on the ever-popular Marvel comic book series &quot;The Avengers,&quot; first published in 1963 and a comics institution ever since. Prepare yourself for an exciting event movie, packed with action and spectacular special effects, when &quot;Marvel's The Avengers&quot; assemble in summer 2012. In &quot;Marvel's The Avengers,&quot; superheroes team up to pull the world back from the brink of disaster when an unexpected enemy threatens global security." />
+	<link rel="stylesheet" href="http://trailers.apple.com/trailers/global/styles/shared_091411.css" type="text/css" />
+	<link rel="stylesheet" href="http://trailers.apple.com/trailers/global/styles/overlay.css" type="text/css" />
+	<link rel="stylesheet" href="http://trailers.apple.com/trailers/global/styles/ac_media_20110317.css" type="text/css" />
+	<link rel="stylesheet" href="http://trailers.apple.com/trailers/global/styles/staf.css" type="text/css" />
+
+
+	<!-- Contains pre-set options for body/#main/#promofooter -->
+	<link rel="stylesheet" href="http://trailers.apple.com/trailers/global/styles/variable.css" type="text/css" />
+
+	<!-- Contains Styles for all general template pages -->
+	<link rel="stylesheet" href="http://trailers.apple.com/trailers/global/styles/general_062911.css" type="text/css" />
+	<link rel="stylesheet" href="http://trailers.apple.com/trailers/global/styles/ipad_black.css" type="text/css" />
+
+
+	<!-- Contains Styles for this page only -->
+	<link rel="stylesheet" href="http://trailers.apple.com/trailers/marvel/avengers/styles.css" type="text/css" />
+
+	
+	<!-- Global Scripts -->
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/apple_core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/event_mixins.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/ac_media_20110531.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/swap_view.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/overlay_panel.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/overlay_panel_screen.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/slyder.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/validation.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/lib/control_scrollbar_20110317.js" type="text/javascript" charset="utf-8"></script>
+	<!--/ Global Scripts -->
+	
+	<!-- Trailer Scripts -->
+	<script src="http://trailers.apple.com/trailers/global/scripts/bootstrapper_062911.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/webkitvideo.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		// Bootstrap includes based on device/browser
+		AC.bootstrap = new AC.bootstrapper();
+	
+		// Define dropdownTimer in global space
+		var dropdownTimer = null;
+		var hasScrollbar = false;
+		
+		// update iTunes footer breadcrumb home link
+		Event.onDOMReady(function() {
+			$$('body.itunes #breadcrumbs > li.home').each(function(el, ndx) {
+				$(el).removeClassName('home');
+				$(el).innerHTML = $(el).innerHTML.replace('Home', 'iTunes Store');
+				$(el).down().href = 'http://itunes.apple.com/us/store';
+			});
+		});
+		// add a "more" link for footer link lists
+		document.observe('bootstrap:finished', function() {
+			$$('body.itunes .footer-links ul').each(function(el, ndx) {
+				var num_links = 7;
+				var children = el.childElements();
+				if (children.length > num_links + 1) {
+					children.each(function(el2, ndy) {
+						if (ndy >= num_links) {
+							el2.hide();
+						}
+						if (ndy == num_links) {
+							el2.insert({before: '<li><a href="#" onclick="this.up(\'.footer-links ul\').childElements().each(function(el) { el.show(); }); this.up().hide(); return false;">...More</a></li>'});
+						}
+					});
+				}
+			});
+		});
+	</script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/share.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/sendtoafriend.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/videochooser_062911.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/nestedtrigger.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/readmore.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/posterpopup.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/dropdown.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/opacity.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/backgroundswap_062911.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/playlistscrollbar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/playlistcarousel.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/target_quicktimeplayer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/target_itunes.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/promotruncate.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/gallerypromo.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://trailers.apple.com/trailers/global/scripts/showtimes.view.js" type="text/javascript" charset="utf-8"></script>
+	<!--/ Trailer Scripts -->
+
+
+	<script type="text/javascript" charset="utf-8">
+		var trailerTitle     = 'The Avengers';
+		var trailerURL       = '/trailers/marvel/avengers/';
+		var trailerPosterURL = 'http://trailers.apple.com/trailers/marvel/avengers/images/poster.jpg';
+		var tms_id           = [{"name":"The Avengers","id":"MV003707110000"},{"name":"The Avengers 3D","id":"MV003831000000"}];
+		var rottenURL        = '/trailers/feeds/rottentomatoes/4574.json';
+		var releaseDate      = '2012-05-04';
+
+		Event.onDOMReady(function() {
+			/* Add poster overlay functionality */
+			new AC.PosterPopup('http://trailers.apple.com/trailers/marvel/avengers/images/poster-xlarge.jpg');
+
+			
+			
+			/* Showtimes Overlay */
+			new ST.View();
+
+			/* tomatometer */
+			if (filmIsReleased()) {
+				var t;
+				new Ajax.Request(rottenURL, {
+					method:'get',
+					onSuccess: function(transport){
+						t = transport.responseText.evalJSON();
+						if (t.tomatometerPercentage > 0 || t.criticReviews.length > 0) {
+							var button = new Element('a', { 'class': 'OverlayPanel thumb', 'id': 'tomatometer', 'target': '#overlay-tomatoes', href: '/trailers/global/includes/rotten_tomatoes_overlay.html#tomatoes'});
+							$('rotten-tomatoes').addClassName('rotten-tomatoes').addClassName(t.isFresh).update(button);
+							$('tomatometer').update(t.tomatometerPercentage + "%");
+						}
+					}
+				});
+			}
+		});
+		function filmIsReleased() {
+			var curYear  = new Date().getFullYear();
+			var curMonth = new Date().getMonth() + 1;
+			curMonth = curMonth < 9 ? '0' + curMonth : curMonth;
+			var curDay   = new Date().getDate() < 9 ? '0' + new Date().getDate() : new Date().getDate();
+			return releaseDate <= curYear + '-' + curMonth + '-' + curDay ? true : false;
+		}
+	</script>
+
+</head>
+
+<body class="body-black"><!-- .body-black || .body-white -->
+    <div id="metrics">
+        <div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+<script type="text/javascript">
+/* RSID: */
+var s_account="appleglobal,appleustrailers"
+</script>
+<script type="text/javascript" src="http://images.apple.com/metrics/scripts/s_code_h.js"></script>
+<script type="text/javascript">
+s.pageName=AC.Tracking.pageName()+" (us)";
+s.channel="www.us.trailers"
+var cookieVal = s.c_r('trailers_viewType');
+if(cookieVal && cookieVal.match(/text/i)){
+	s.prop3 = 'list view';
+} else if(cookieVal && cookieVal.match(/poster/i)){
+	s.prop3 = 'poster view';
+} else {
+	s.prop3 = 'default view';
+}
+
+s.linkInternalFilters="javascript:,trailers.apple.com/"
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+
+	</div>
+	<noscript><div id="nojs">Please enable JavaScript to view this page properly.</div></noscript>
+	<!--[if lt IE 7]>
+	<div id="ie6-message">
+		<h2>You are currently using an outdated browser.</h2>
+		<p>Please upgrade to a <a href="http://www.apple.com/safari/">modern browser</a> to fully experience this site.<p>
+	</div>
+	<![endif]-->
+
+	<div id="productheader">
+	</div><!--/productheader-->
+
+	<div id="hero">
+		<h1 class="replaced">The Avengers</h1>
+
+		<div id="trailers">
+		</div><!--/trailers-->
+	</div><!--/hero-->
+
+	<div id="main" class="main content dark-1"><!-- .dark-1 || .light-1 -->
+		<h3 class="title">
+			<span id="view-showtimes" class="right">
+				
+				<!-- switch showtimes multi on --><a href="showtimes" class="showtimes multiple"><span>Find Showtimes</span></a><!-- switch showtimes multi off -->
+				
+			</span>
+			The Avengers
+			<img class="rating PG-13" src="http://trailers.apple.com/trailers/global/images/ratings/movie_rating_pg13.png" alt="PG-13" />
+			<!-- switch showtimes on --><span>In theaters: May 4th, 2012 </span><!-- switch showtimes off -->
+			<span class="sosumi">Copyright © 2012 Marvel Studios</span>
+		</h3>
+
+		<div id="staf-swap">
+			<div class="grid3col gallery-content" id="staf-swap-1">
+				<div class="column first">
+					<div class="grid2col">
+						<div class="column first">
+							<a href="#" id="poster" class="left">
+								<span class="enlarge"></span>
+								<img src="http://trailers.apple.com/trailers/marvel/avengers/images/poster.jpg" alt="" width="134" height="193" class="poster" />
+							</a>
+						</div><!--/column first-->
+
+						<div class="column last">
+							<div id="more-description" class="read-more-container">
+								<h4>Synopsis</h4>
+								<p>Marvel Studios presents in association with Paramount Pictures &quot;Marvel's The Avengers&quot;--the Super Hero team up of a lifetime, featuring iconic Marvel Super Heroes Iron Man, The Incredible Hulk, Thor, Captain America, Hawkeye and Black Widow. When an unexpected enemy emerges that threatens global safety and security, Nick Fury, Director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins. Starring Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner and Samuel L. Jackson, and directed by Joss Whedon, &quot;Marvel's The Avengers&quot; is based on the ever-popular Marvel comic book series &quot;The Avengers,&quot; first published in 1963 and a comics institution ever since. Prepare yourself for an exciting event movie, packed with action and spectacular special effects, when &quot;Marvel's The Avengers&quot; assemble in summer 2012. In &quot;Marvel's The Avengers,&quot; superheroes team up to pull the world back from the brink of disaster when an unexpected enemy threatens global security.</p>
+							</div>
+
+							<a class="read-more" id="more-description-toggle" href="#">More</a>
+
+							<ul id="share">
+							<!--	<li id="share-email"><a href="includes/staf.html#send-to-a-friend" class="staf" title="Send to a friend">Email</a></li> -->
+								<li id="share-facebook"><a href="http://www.facebook.com/share.php?u=http://trailers.apple.com/trailers/marvel/avengers" target="_block" title="Share this on Facebook">Facebook</a></li>
+								<li id="share-twitter"><a href="http://twitter.com/home?status=The Avengers &ndash; See the trailer http://trailers.apple.com/trailers/marvel/avengers/" target="_block" title="Share this on Twitter">Twitter</a></li>
+								<li id="rotten-tomatoes"></li>								
+                            </ul>
+						</div><!--/column last-->
+					</div><!--/grid2col-->
+				</div><!--/column first-->
+
+				<!-- switch gallery on -->
+				<div class="block column last gallery">
+					<h4>The Avengers image gallery</h4>
+					<a href="gallery">
+					</a>
+				</div>
+				<!-- switch gallery off -->
+
+				<div class="column ">
+					<div id="more-credits" class="read-more-container">
+						<dl>
+							<dt>Genre:</dt><dd> <a href="/trailers/genres/action_and_adventure/">Action and Adventure</a>, <a href="/trailers/genres/science_fiction/">Science Fiction</a></dd>
+
+							<dt>Official Site:</dt><dd><a class="official-link" href="http://avengers.marvel.com" target="_blank">http://avengers.marvel.com</a></dd>
+
+							<dt>Director:</dt><dd>Joss Whedon</dd>
+
+							<dt>Cast:</dt><dd>Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Tom Hiddleston, Stellan Skarsgård, Samuel L. Jackson</dd>
+
+							<dt>Writers:</dt><dd>Joss Whedon</dd>
+
+							<dt>Run Time:</dt><dd>143 minutes</dd>
+						</dl>
+					</div>
+
+					<a class="read-more" id="more-credits-toggle" href="#">More</a>
+
+				</div>
+				<!--/column last-->
+			</div><!--/grid2col-->
+		</div><!--/staf-swap-->
+	</div><!--/main-->
+
+	<div id="promofooter" class="content dark-1"><!-- .dark-1 || .light-1 -->
+		<ul class="grid5col">
+			<li class="column first truncate">
+				<h4>The Avengers</h4><span>Movie</span><a class="block two-col" href="http://itunes.apple.com/us/movie/the-avengers/id533654020?uo=4&partnerId=30&siteID=KcYgFL4xzJU&name=trailers">
+<img class="reflect left soundtrack" alt="The Avengers" src="http://a5.mzstatic.com/us/r1000/088/Video/v4/88/cf/0b/88cf0b0f-4c4b-fbda-c4a3-f15ec5392e25/mza_5059262374444342889.200x200-75.jpg"/>
+<em class="more">Get in iTunes</em>
+</a>
+			</li>
+			<li class="column truncate">
+				<h4>Avengers Assemble (Music Inspired By the Motion Picture)</h4><span>Album</span><a class="block two-col" href="http://itunes.apple.com/us/album/avengers-assemble-music-inspired/id517763465?uo=4&partnerId=30&siteID=KcYgFL4xzJU&name=trailers">
+<img class="reflect left soundtrack" alt="Avengers Assemble (Music Inspired By the Motion Picture)" src="http://a4.mzstatic.com/us/r30/Music/v4/ca/7d/bf/ca7dbfcd-8f2f-4f40-5004-591851cc1e1a/UMG_cvrart_00050087283193_01_RGB72_1200x1200_12DMGIM03202.200x200-75.jpg"/>
+<em class="more">Get in iTunes</em>
+</a>
+			</li>
+			<li class="column truncate">
+				<h4>The Avengers (Original Motion Picture Soundtrack)</h4><span>Album</span><a class="block two-col" href="http://itunes.apple.com/us/album/avengers-original-motion-picture/id520327849?uo=4&partnerId=30&siteID=KcYgFL4xzJU&name=trailers">
+<img class="reflect left soundtrack" alt="The Avengers (Original Motion Picture Soundtrack)" src="http://a4.mzstatic.com/us/r30/Music/v4/3c/51/ce/3c51cefc-9fae-b2b7-4655-12b076b8e72d/UMG_cvrart_00050087281557_01_RGB72_1200x1200_12DMGIM03165.200x200-75.jpg"/>
+<em class="more">Get in iTunes</em>
+</a>
+			</li>
+			<li class="column truncate">
+				<h4>MARVEL'S THE AVENGERS: IRON MAN - MARK VII</h4><span>App</span><a class="block two-col" href="http://itunes.apple.com/us/app/marvels-avengers-iron-man/id515559078?mt=8&uo=4&partnerId=30&siteID=KcYgFL4xzJU&name=trailers">
+<img class="reflect left soundtrack" alt="MARVEL'S THE AVENGERS: IRON MAN - MARK VII" src="http://a2.mzstatic.com/us/r1000/069/Purple/v4/7b/5b/d2/7b5bd20f-42c9-5b57-876f-4e2ff5d9bcfc/mza_7910741354592022673.200x200-75.png"/>
+<em class="more">Get in iTunes</em>
+</a>
+			</li>
+			<li class="column last truncate">
+				<h4>Captain America: The First Avenger</h4><span>Movie</span><a class="block two-col" href="http://itunes.apple.com/us/movie/captain-america-the-first/id464094560?uo=4&partnerId=30&siteID=KcYgFL4xzJU&name=trailers">
+<img class="reflect left soundtrack" alt="Captain America: The First Avenger" src="http://a1.mzstatic.com/us/r1000/109/Video/31/f7/ef/mzl.qjatekic.200x200-75.jpg"/>
+<em class="more">Get in iTunes</em>
+</a>
+			</li>
+		</ul>
+	</div><!--/promofooter-->
+
+
+
+	<div id="globalfooter">
+		<div id="breadory">
+			<ol id="breadcrumbs">
+				<li class="home"><a href="http://www.apple.com">Home</a></li>
+				<li><a href="/">iTunes Movie Trailers</a></li>
+				<li>The Avengers</li>
+			</ol>
+		</div><!--/breadory-->
+
+	</div><!--/globalfooter-->
+</body>
+</html>

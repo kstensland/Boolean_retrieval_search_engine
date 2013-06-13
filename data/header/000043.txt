@@ -1,0 +1,9 @@
+Set-Cookie: cookie=R3895305096; path=/
+Cache-Control: private
+Content-Length: 61553
+Content-Type: text/html
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASPSESSIONIDSQTRCCBT=PPDIGHFALBCEHKHPEBPHNGLA; path=/
+X-Powered-By: ASP.NET
+Date: Sun, 30 Sep 2012 22:24:39 GMT
+Connection: close

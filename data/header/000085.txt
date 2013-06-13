@@ -1,0 +1,13 @@
+Date: Sun, 30 Sep 2012 22:44:38 GMT
+Server: Server
+Cache-Control: private
+Cneonction: close
+Content-Type: text/html
+Set-Cookie: uu=BCYgFKwzqcy2VJKLarN7sWD6ESLlQprA5Nsc9i-0FXISqOvKm2V5eW8GA2qiCoWAFshMG0Lm4xrCnV0oKNnVnOlHf0lLYcQwP1dpp7Gk1aj6a2PmPblCrQlrVDIrNcQfpmY8lkybZZ_PnLyYZs95T46zopZnnqgyg_T4HDZq-OVrPSH8ljv8MEiYNNyFy7aE-WG_8YWy-2TLdSQSI8wGTalXmOnACKtXrrQYyWBs6FuieNPhLapGUtpzDfs2lwxPb4Qt;expires=Thu, 30 Dec 2037 00:00:00 GMT;path=/;domain=.imdb.com
+Set-Cookie: cs=VlViU5FVJW4Tl9sFXD/3nQiOAiSO2RITtsmaRI3aYaQNShFn3noBF87ZEhQoWVIEjtkkY9lMMiSN34aBzeyWh8mZspcO2SSyblESJI7vJDOO2RIkjvkSJI7ZEmTOiWIUg=;expires=Mon, 01 Oct 2012 07:00:00 GMT;path=/;domain=.imdb.com
+Set-Cookie: cs=8GddcTz2ZTdyFIKQsJsm7gbGfbqgkW2NmIHl2qOSHjojAm758DJ+ieCRbYoGES2aoJFb/fb0HbqjF5ssF9HNyfCRWyxAGW26oKdbraCRbbqgsW26oJFt+uDBHYqg==;expires=Mon, 01 Oct 2012 07:00:00 GMT;path=/;domain=.imdb.com
+Set-Cookie: session-id=681-9045078-6401124;path=/;domain=.imdb.com;expires=Fri, 29 Sep 2017 15:44:38 GMT
+Set-Cookie: session-id-time=1506725078;path=/;domain=.imdb.com;expires=Fri, 29 Sep 2017 15:44:38 GMT
+Vary: Accept-Encoding,User-Agent
+P3P: policyref="http://i.imdb.com/images/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC GOV OTC "
+Transfer-Encoding: chunked

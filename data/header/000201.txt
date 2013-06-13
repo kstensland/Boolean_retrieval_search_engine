@@ -1,0 +1,15 @@
+Server: Apache
+X-Powered-By: PHP/5.3.3
+X-Source-Host: 425916-webpwb01.myplaydirect.com
+Cache-Control: public, max-age=900
+Last-Modified: Sun, 30 Sep 2012 23:44:34 +0000
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Vary: Cookie
+ETag: "1349048674"
+P3P: CP=HONK
+Content-Type: text/html; charset=utf-8
+Content-Length: 45038
+Accept-Ranges: bytes
+Date: Mon, 01 Oct 2012 00:02:09 GMT
+Age: 1054
+Connection: close

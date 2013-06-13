@@ -1,0 +1,13 @@
+Cache-Control: no-cache, must-revalidate, proxy-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/7.5
+X-Server: 544e641b79e38502cace88a813d70e039c2dafbbf52c9329
+Set-Cookie: MSCulture=IP=192.231.234.1&IPCulture=en-US&PreferredCulture=en-US&PreferredCulturePending=&Country=VVM=&ForcedExpiration=634846258731643482&timeZone=0&myStuffDma=&myStuffMarket=&USRLOC=QXJlYUNvZGU9NjA3JkNpdHk9SXRoYWNhJkNvdW50cnlDb2RlPVVTJkNvdW50cnlOYW1lPVVuaXRlZCBTdGF0ZXMmRG1hQ29kZT01NTUmTGF0aXR1ZGU9NDIuNDA3MiZMb25naXR1ZGU9LTc2LjUxNTkmUG9zdGFsQ29kZT0xNDg1MCZSZWdpb25OYW1lPU5ZJkxvY2F0aW9uSWQ9MA==&UserFirstVisit=1; domain=.myspace.com; expires=Mon, 08-Oct-2012 01:17:53 GMT; path=/
+Set-Cookie: SessionDDF2=TUrVoxTiRQ3Xu13ptFrNM/OD7RLJ+TcCeMQNaEdc2WgDtP2k0F10wq+XYFOxnCqYTw32/hPBJ+/7U4z9dhhT9Q==; domain=.myspace.com; expires=Fri, 01-Oct-2032 01:17:53 GMT; path=/
+X-Frame-Options: SAMEORIGIN
+X-AspNet-Version: 4.0.30319
+X-PoweredBy: Caffiene
+Date: Mon, 01 Oct 2012 01:17:52 GMT
+Content-Length: 9796
